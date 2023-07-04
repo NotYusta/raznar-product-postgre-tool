@@ -1,7 +1,7 @@
 import fs from "fs";
 import { Services } from "./services";
 
-export declare const enum ServiceType {
+export const enum ServiceType {
   SERVER_HOSTING = "server_hosting",
   GAME_HOSTING = "game_hosting",
   APP_HOSTING = "app_hosting",
