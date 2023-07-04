@@ -1,0 +1,4 @@
+INSERT INTO public.services(name, slug, startPrice, type) VALUES ('Minecraft Hosting', 'minecraft_hosting', (25000,1.92,1.84)::public.price, 'game_hosting');
+INSERT INTO public.services(name, slug, startPrice, type) VALUES ('App Hosting', 'app_hosting', (15000,1.15,1.1)::public.price, 'app_hosting');
+INSERT INTO public.services(name, slug, startPrice, type) VALUES ('Virtual Private Server', 'virtual_private_server', (350000,26.92,25.84)::public.price, 'server_hosting');
+INSERT INTO public.services(name, slug, startPrice, type) VALUES ('Fivem Hosting', 'fivem_hosting', (525000,40.38,38.76)::public.price, 'game_hosting');
